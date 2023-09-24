@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Primary Styles */
+.btn-primary{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+}
+.btn-primary:hover{
+    border: 2px solid #E55473;
+    color: #E55473;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 54px;
+}
+h2{
+    font-size: 30px;
+}
+/* Header Section */
+.header-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0px;
+}
+.header-img img{
+    width: 400px;
+}
+.header-contents>h1{
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.header-contents>p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* features */
+.feature-contents{
+    margin: 100px 50px 20px;
+    text-align: center;
+}
+.feature-contents>h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.feature-contents>p{
+    font-size: 18px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.image img{
+    height: 390px;
+    padding: 60px 20px;
+}
+.image>div{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 220px 220px 0 0;
+}
+.image p{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* supports */
+.supports{
+    width: 80%;
+    
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.support img{
+    width: 75px;
+}
+
+/* hot deals */
+.deals{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#deals{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.instagram{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rectangles{
+    margin-top: 100px;
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle img{
+    width: 300px;
+}
+
+.newsletter{
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url("images/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.mail input{
+    height: 20px;
+    width: 200px;
+    padding: 12px 15px;
+    margin-right: 2px;
+}
+/* footer */
+footer{
+    background: #111010;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
